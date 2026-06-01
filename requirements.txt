@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+ultralytics
+opencv-python
+pandas
+numpy
+pydantic
+streamlit
+pytest
+python-multipart
+sqlalchemy
+moviepy
+requests
+httpx
+httpx2
