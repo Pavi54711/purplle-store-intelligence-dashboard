@@ -7,6 +7,23 @@ https://purplle-store-intelligence-dashboard.streamlit.app
 🔗 GitHub Repository:
 https://github.com/Pavi54711/purplle-store-intelligence-dashboard
 
+## 🎥 Project Demonstration
+
+Watch the complete project walkthrough here:
+
+▶️ https://youtu.be/MxunGp4l8Z8
+
+The demo covers:
+
+- Dashboard Overview
+- Multi-Camera Monitoring
+- YOLOv8 Detection Pipeline
+- Smart Crowd Alert Engine
+- Heatmap Analytics
+- Conversion Funnel Analytics
+- AI Store Recommendations
+- Streamlit Deployment
+
 ### AI-Powered Retail Analytics & Store Intelligence Platform
 
 Built for the **Purplle Tech Challenge 2026**, this project converts CCTV footage into real-time retail intelligence.
