@@ -284,7 +284,7 @@ This demonstrates:
 
 ## 🔥 Heatmap Analytics
 
-![Heatmap](tests/screenshots/Heatmap.png.png)
+![Heatmap](tests/screenshots/Headmap.png.png)
 
 The heatmap section shows activity across store zones.
 
