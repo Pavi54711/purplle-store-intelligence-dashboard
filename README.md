@@ -1,4 +1,11 @@
 # 💜 Purplle Store Intelligence Dashboard
+## 🚀 Live Demo
+
+🔗 Streamlit Dashboard:
+https://purplle-store-intelligence-dashboard.streamlit.app
+
+🔗 GitHub Repository:
+https://github.com/Pavi54711/purplle-store-intelligence-dashboard
 
 ### AI-Powered Retail Analytics & Store Intelligence Platform
 
