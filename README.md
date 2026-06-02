@@ -49,6 +49,7 @@ This solution transforms CCTV videos into a live AI-powered store intelligence d
 ---
 
 ## 🏗 Solution Architecture
+![Architecture](tests/screenshots/architecture_diagram.png.png)
 
 ```text
 ┌──────────────────────┐
