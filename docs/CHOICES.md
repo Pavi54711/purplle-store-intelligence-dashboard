@@ -185,6 +185,30 @@ Examples:
 
 ---
 
+# Additional Engineering Decisions
+
+## Staff Exclusion Strategy
+
+The event schema includes an `is_staff` attribute to support separation of employee activity from customer analytics. This design prevents staff movement from affecting visitor counts, occupancy estimation, conversion metrics, and operational insights.
+
+## Re-Entry Handling Strategy
+
+Unique visitor identifiers (`id_token` / `track_id`) were selected to support customer journey tracking. If a customer exits and later re-enters the store, the same identifier can be reused to enable re-entry analytics and repeat-visit analysis.
+
+## Edge Case Considerations
+
+The event architecture was designed to support:
+
+* Queue abandonment detection
+* Queue completion tracking
+* Group visitor handling
+* Multi-camera activity analysis
+* Temporary occlusion scenarios
+* Future person re-identification enhancements
+
+These considerations improve the extensibility and practical usefulness of the analytics platform.
+
+
 # Conclusion
 
 The overall architecture prioritizes:

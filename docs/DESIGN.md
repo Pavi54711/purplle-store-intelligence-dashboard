@@ -277,6 +277,21 @@ These limitations were accepted to prioritize rapid development and demonstratio
 
 ---
 
+# Staff Exclusion, Re-Entry and Edge Case Handling
+
+## Staff Exclusion
+
+The event schema supports staff identification using the `is_staff` field. Staff members can be filtered from customer analytics to avoid skewing visitor counts, conversion metrics, and occupancy calculations.
+
+## Re-Entry Handling
+
+Customer journeys are tracked using unique identifiers (`id_token` / `track_id`). If the same customer exits and re-enters the store, the identifier can be reused to support re-entry analytics, customer flow analysis, and repeat visit measurement.
+
+## Edge Case Handling
+
+The system design considers customer groups, queue abandonment, queue completion, temporary occlusions, and multiple camera zones. Event-based logging enables future expansion for advanced tracking and re-identification scenarios.
+
+
 # Future Improvements
 
 Potential future enhancements include:
